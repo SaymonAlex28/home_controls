@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Дом Контроль</title>
+  <link rel="icon" href="house-repair.png" type="image/png"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+  <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="name">ДОМ КОНТРОЛЬ</div>
+    <div class="progress">
+      <div class="secbath_light">
+        <div class="bathlight__fill"></div>
+        <span class="bathlight__text"></span>
+      </div>
+      <div class="secbath_temp">
+        <div class="bathtemp__fill"></div>
+        <span class="bathtemp__text"></span>
+      </div>
+      <a class="icon1" id="bath">
+        <i class="fas fa-4x fa-bath"></i>
+      </a>
+      <div class="toggle-btn" id="unact">
+        <div class="inner-circle">
+        </div>
+      </div>
+      <div class="toggle-btn active" id="act">
+        <div class="inner-circle">
+        </div>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="seckitch_light">
+        <div class="kitchlight__fill"></div>
+        <span class="kitchlight__text"></span>
+      </div>
+      <div class="seckitch_temp">
+        <div class="kitchtemp__fill"></div>
+        <span class="kitchtemp__text"></span>
+      </div>
+      <a class="icon1" id="kitch">
+        <i class="fas fa-4x fa-utensils"></i>
+      </a>
+      <div class="toggle-btn1" id="unact1">
+        <div class="inner-circle">
+        </div>
+      </div>
+      <div class="toggle-btn1 active" id="act1">
+        <div class="inner-circle">
+        </div>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="sectv_light">
+        <div class="tvlight__fill"></div>
+        <span class="tvlight__text"></span>
+      </div>
+      <div class="sectv_temp">
+        <div class="tvtemp__fill"></div>
+        <span class="tvtemp__text"></span>
+      </div>
+      <a class="icon1" id="tvset">
+        <i class="fas fa-4x fa-tv"></i>
+      </a>
+      <div class="toggle-btn2" id="unact2">
+        <div class="inner-circle">
+        </div>
+      </div>
+      <div class="toggle-btn2 active" id="act2">
+        <div class="inner-circle">
+        </div>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="secbed_light">
+        <div class="bedlight__fill"></div>
+        <span class="bedlight__text"></span>
+      </div>
+      <div class="secbed_temp">
+        <div class="bedtemp__fill"></div>
+        <span class="bedtemp__text"></span>
+      </div>
+      <a class="icon1" id="bed">
+        <i class="fas fa-4x fa-bed"></i>
+      </a>
+      <div class="toggle-btn3" id="unact3">
+        <div class="inner-circle">
+        </div>
+      </div>
+      <div class="toggle-btn3 active" id="act3">
+        <div class="inner-circle">
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>
